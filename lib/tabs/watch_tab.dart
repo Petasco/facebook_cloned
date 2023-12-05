@@ -1,4 +1,4 @@
-import 'package:facebook_ui_flutter/widgets/separator_widget.dart';
+import 'package:facebook/widgets/separator_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -10,16 +10,16 @@ class WatchTab extends StatefulWidget {
 
 class _WatchTabState extends State<WatchTab> {
   String videoUrl1 = 'https://www.youtube.com/watch?v=j5-yKhDd64s';
-  YoutubePlayerController _controller1;
+  late YoutubePlayerController _controller1;
 
   String videoUrl2 = 'https://www.youtube.com/watch?v=E1ZVSFfCk9g';
-  YoutubePlayerController _controller2;
+  late YoutubePlayerController _controller2;
 
   @override
   void initState() {
     super.initState();
-    _controller1 = YoutubePlayerController(initialVideoId: YoutubePlayer.convertUrlToId(videoUrl1));
-    _controller2 = YoutubePlayerController(initialVideoId: YoutubePlayer.convertUrlToId(videoUrl2));
+    //_controller1 = YoutubePlayerController(initialVideoId: YoutubePlayer.convertUrlToId(videoUrl1));
+    //_controller2 = YoutubePlayerController(initialVideoId: YoutubePlayer.convertUrlToId(videoUrl2));
   }
 
   @override

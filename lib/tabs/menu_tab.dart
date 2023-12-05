@@ -50,7 +50,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -69,7 +69,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -96,7 +96,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -115,7 +115,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -142,7 +142,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -161,7 +161,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -188,7 +188,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(
@@ -207,7 +207,7 @@ class MenuTab extends StatelessWidget {
                     height: 85.0,
                     padding: EdgeInsets.only(left: 20.0),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 1.0, color: Colors.grey[300]),
+                      border: Border.all(width: 1.0, color: Colors.grey),
                       borderRadius: BorderRadius.circular(10.0)
                     ),
                     child: Column(

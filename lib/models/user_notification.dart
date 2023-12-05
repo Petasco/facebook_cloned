@@ -4,9 +4,9 @@ class UserNotification {
   final String time;
 
   UserNotification({
-    this.imageUrl,
-    this.content,
-    this.time
+    required this.imageUrl,
+    required this.content,
+    required this.time
   });
 }
 

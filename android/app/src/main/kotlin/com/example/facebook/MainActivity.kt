@@ -1,4 +1,4 @@
-package com.example.facebook_ui_flutter
+package com.example.facebook
 
 import io.flutter.embedding.android.FlutterActivity
 

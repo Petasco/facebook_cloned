@@ -1,9 +1,9 @@
-import 'package:facebook_ui_flutter/widgets/write_something_widget.dart';
-import 'package:facebook_ui_flutter/widgets/separator_widget.dart';
-import 'package:facebook_ui_flutter/widgets/post_widget.dart';
-import 'package:facebook_ui_flutter/widgets/stories_widget.dart';
-import 'package:facebook_ui_flutter/widgets/online_widget.dart';
-import 'package:facebook_ui_flutter/models/post.dart';
+import 'package:facebook/widgets/write_something_widget.dart';
+import 'package:facebook/widgets/separator_widget.dart';
+import 'package:facebook/widgets/post_widget.dart';
+import 'package:facebook/widgets/stories_widget.dart';
+import 'package:facebook/widgets/online_widget.dart';
+import 'package:facebook/models/post.dart';
 import 'package:flutter/material.dart';
 
 class HomeTab extends StatelessWidget {

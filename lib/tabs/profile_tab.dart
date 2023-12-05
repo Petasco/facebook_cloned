@@ -1,4 +1,4 @@
-import 'package:facebook_ui_flutter/widgets/separator_widget.dart';
+import 'package:facebook/widgets/separator_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProfileTab extends StatelessWidget {

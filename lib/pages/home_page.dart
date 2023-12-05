@@ -1,10 +1,11 @@
-import 'package:facebook_ui_flutter/tabs/home_tab.dart';
-import 'package:facebook_ui_flutter/tabs/friends_tab.dart';
-import 'package:facebook_ui_flutter/tabs/watch_tab.dart';
-import 'package:facebook_ui_flutter/tabs/profile_tab.dart';
-import 'package:facebook_ui_flutter/tabs/notifications_tab.dart';
-import 'package:facebook_ui_flutter/tabs/menu_tab.dart';
+import 'package:facebook/tabs/home_tab.dart';
+import 'package:facebook/tabs/friends_tab.dart';
+import 'package:facebook/tabs/watch_tab.dart';
+import 'package:facebook/tabs/profile_tab.dart';
+import 'package:facebook/tabs/notifications_tab.dart';
+import 'package:facebook/tabs/menu_tab.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomePage extends StatefulWidget {
@@ -14,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
 
-  TabController _tabController;
+  late TabController _tabController;
 
   @override
   void initState() {
@@ -32,7 +33,6 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        brightness: Brightness.light,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             Tab(icon: Icon(Icons.notifications, size: 30.0)),
             Tab(icon: Icon(Icons.menu, size: 30.0))
           ],
-        ),
+        ), systemOverlayStyle: SystemUiOverlayStyle.dark,
       ),
       body: TabBarView(
         controller: _tabController,

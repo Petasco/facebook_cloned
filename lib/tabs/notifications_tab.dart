@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:facebook_ui_flutter/widgets/notification_widget.dart';
-import 'package:facebook_ui_flutter/models/user_notification.dart';
+import 'package:facebook/widgets/notification_widget.dart';
+import 'package:facebook/models/user_notification.dart';
 class NotificationsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

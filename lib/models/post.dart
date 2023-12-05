@@ -8,13 +8,13 @@ class Post{
   final String shares;
 
   Post({
-    this.profileImageUrl,
-    this.username,
-    this.time,
-    this.content,
-    this.likes,
-    this.comments,
-    this.shares
+    required this.profileImageUrl,
+    required this.username,
+    required this.time,
+    required this.content,
+    required this.likes,
+    required this.comments,
+    required this.shares
   });
 }
 

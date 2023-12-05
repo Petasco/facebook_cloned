@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:facebook_ui_flutter/models/post.dart';
+import 'package:facebook/models/post.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class PostWidget extends StatelessWidget {
@@ -7,7 +7,7 @@ class PostWidget extends StatelessWidget {
   final Post post;
 
   PostWidget({
-    this.post
+    required this.post
   });
 
   @override

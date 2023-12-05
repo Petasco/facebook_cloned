@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:facebook_ui_flutter/models/user_notification.dart';
+import 'package:facebook/models/user_notification.dart';
 
 class NotificationWidget extends StatelessWidget {
 
   final UserNotification notification;
 
   NotificationWidget({
-    this.notification
+    required this.notification
   });
 
   @override
